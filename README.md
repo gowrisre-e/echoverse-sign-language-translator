@@ -1,16 +1,68 @@
-# React + Vite
+# EchoVerse - Real-Time Sign Language Translator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+EchoVerse is a deep learning-driven real-time sign language translation system designed to facilitate communication between hearing-impaired individuals and non-signers. The application uses MediaPipe hand landmark detection and a CNN-LSTM architecture to recognize sign language gestures and convert them into text in real time.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Real-time sign language gesture recognition
+* CNN-LSTM based deep learning model
+* MediaPipe hand landmark detection and tracking
+* Text translation from recognized signs
+* Learning module for practicing sign language
+* Text-to-speech support
+* Voice-to-text functionality
+* IndexedDB storage for translated text history
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
 
-## Expanding the ESLint configuration
+* React.js
+* HTML5
+* CSS3
+* JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### AI & Machine Learning
+
+* TensorFlow
+* Keras
+* CNN-LSTM Architecture
+* MediaPipe
+* OpenCV
+
+### Database & Storage
+
+* IndexedDB
+
+## Project Structure
+
+```text
+src/        - React application source code
+public/     - Models and learning resources
+training/   - Model training scripts
+```
+
+## Research Publication
+
+**Deep Learning-Driven Real-Time Sign Language Translation Using Hand Landmark Sequences**
+Published in *Global Perspectives on AI and Sustainable Development 2.0 (2026)*.
+
+## Screenshots
+
+### Home Page
+
+![Home Page 1](screenshots/home-page-1.png)
+
+![Home Page 2](screenshots/home-page-2.png)
+
+### Real-Time Translator
+
+![Translator](screenshots/translator-page.png)
+
+### Learning Module
+
+![Learning Module 1](screenshots/learning-module-1.png)
+
+![Learning Module 2](screenshots/learning-module-2.png)
+
+![Learning Module 3](screenshots/learning-module-3.png)
