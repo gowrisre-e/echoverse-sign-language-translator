@@ -1,0 +1,8 @@
+# This folder contains the pre-trained TensorFlow.js model
+# 
+# After running the training scripts, this folder should contain:
+# - model.json (model architecture)
+# - group1-shard1of1.bin (model weights)
+# - metadata.json (training metadata)
+#
+# See training/README.md for instructions on how to train the model.
